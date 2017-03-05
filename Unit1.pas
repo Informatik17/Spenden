@@ -38,7 +38,7 @@ begin
       then Label1.Caption:='Danke'
       else if(SP<51)
               then Label1.Caption:='Vielen Dank'
-              else Label1.Caption:='Herzlichen Dank';
+              else Label1.Caption:='Herzlichen lieben Dank';
    GES:=GES+SP;
    Label4.Caption:=IntToStr(GES);
 
